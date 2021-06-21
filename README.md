@@ -17,7 +17,7 @@ All designs and code by: Ryan Forelli
 -   1x ATmega328P AVR microcontroller
 -   5x 5mm DIP LEDs
 -   1x Pin header set
--   [Molex 6 Circuit Wire Connector][1]
+-   1x [Molex 6 Circuit Wire Connector][1]
 -   1x through hole pushbutton
 -   1x 16 MHz crystal oscillator
 -   2x 22pF ceramic capacitors
