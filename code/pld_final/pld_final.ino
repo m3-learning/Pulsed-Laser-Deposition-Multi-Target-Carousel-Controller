@@ -36,7 +36,7 @@ void setup() {
     digitalWrite(A2, HIGH);
     digitalWrite(A1, HIGH);
 
-    //Status bigs
+    //Status bits
     pinMode(homing_bit, OUTPUT);
     pinMode(rastering_bit, OUTPUT);
     pinMode(rotating_bit, OUTPUT);
