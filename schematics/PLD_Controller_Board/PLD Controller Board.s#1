@@ -8769,7 +8769,7 @@ Source: www.kingbright.com</description>
 <attribute name="VALUE" x="229.87" y="-10.16" size="1.778" layer="96"/>
 </instance>
 <instance part="STEPPER1" gate="A" x="236.22" y="45.72" smashed="yes">
-<attribute name="NAME" x="229.87" y="53.975" size="1.778" layer="95"/>
+<attribute name="NAME" x="229.87" y="38.735" size="1.778" layer="95"/>
 <attribute name="VALUE" x="229.87" y="38.1" size="1.778" layer="96"/>
 </instance>
 <instance part="ENABLE2" gate="G$1" x="160.02" y="2.54" smashed="yes" rot="R180">

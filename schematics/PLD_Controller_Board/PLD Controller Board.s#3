@@ -8677,7 +8677,7 @@ Source: www.kingbright.com</description>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="220"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="220"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="220"/>
-<part name="R1-SENSOR" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10K"/>
+<part name="R2-SENSOR" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10K"/>
 <part name="RESET/RX/TX" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
@@ -8843,7 +8843,7 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="92.71" y="-29.4386" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="95.25" y="-24.638" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R1-SENSOR" gate="G$1" x="157.48" y="68.58" smashed="yes">
+<instance part="R2-SENSOR" gate="G$1" x="157.48" y="68.58" smashed="yes">
 <attribute name="NAME" x="151.13" y="70.0786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="156.21" y="65.278" size="1.778" layer="96"/>
 </instance>
@@ -9008,7 +9008,7 @@ Source: www.kingbright.com</description>
 <wire x1="205.74" y1="10.16" x2="238.76" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="10.16" x2="238.76" y2="58.42" width="0.1524" layer="91"/>
 <junction x="238.76" y="58.42"/>
-<pinref part="R1-SENSOR" gate="G$1" pin="2"/>
+<pinref part="R2-SENSOR" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="68.58" x2="238.76" y2="68.58" width="0.1524" layer="91"/>
 <junction x="238.76" y="68.58"/>
 </segment>
@@ -9457,7 +9457,7 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="IR_SEN" gate="A" pin="3"/>
 <wire x1="114.3" y1="78.74" x2="114.3" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="R1-SENSOR" gate="G$1" pin="1"/>
+<pinref part="R2-SENSOR" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="68.58" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>

@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -8642,7 +8642,6 @@ Source: www.kingbright.com</description>
 <part name="Q1" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="XTAL/S" device="" package3d_urn="urn:adsk.eagle:package:26647/2"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="22PF" device="-PTH-2.54MM-200V-5%" override_package3d_urn="urn:adsk.eagle:package:28116228/2" override_package_urn="urn:adsk.eagle:footprint:28116229/1" value="22pF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="22PF" device="-PTH-2.54MM-200V-5%" override_package3d_urn="urn:adsk.eagle:package:28116232/2" override_package_urn="urn:adsk.eagle:footprint:28116233/1" value="22pF"/>
-<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1-RESET" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10K"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="10UF-POLAR" device="-RADIAL-2.5MM-25V-20%" override_package3d_urn="urn:adsk.eagle:package:28116212/2" override_package_urn="urn:adsk.eagle:footprint:28116213/1" value="10uF"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -8678,16 +8677,18 @@ Source: www.kingbright.com</description>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="220"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="220"/>
 <part name="R2-SENSOR" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10K"/>
-<part name="RESET/RX/TX" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:14281/1"/>
 <part name="FRAME2" library="frames" deviceset="FRAME_A_L" device=""/>
+<part name="RESET/RX/TX" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C5" library="SparkFun-Capacitors" deviceset="10UF-POLAR" device="-RADIAL-2.5MM-25V-20%" override_package3d_urn="urn:adsk.eagle:package:28116212/2" override_package_urn="urn:adsk.eagle:footprint:28116213/1" value="10uF"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="256.54" y="-116.84" size="2.54" layer="94">A</text>
-<text x="165.862" y="-98.044" size="6.35" layer="94">M3 Learning</text>
+<text x="158.242" y="-90.424" size="6.35" layer="94">M3 Learning</text>
 </plain>
 <instances>
 <instance part="IC2" gate="IC" x="81.28" y="33.02" smashed="yes">
@@ -8714,12 +8715,9 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="22.479" y="47.244" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="27.559" y="47.244" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="GND2" gate="1" x="12.7" y="53.34" smashed="yes" rot="R270">
-<attribute name="VALUE" x="10.16" y="55.88" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="R1-RESET" gate="G$1" x="17.78" y="76.2" smashed="yes">
-<attribute name="NAME" x="11.43" y="77.6986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="16.51" y="72.898" size="1.778" layer="96"/>
+<instance part="R1-RESET" gate="G$1" x="22.86" y="83.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="21.3614" y="77.47" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="26.162" y="82.55" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C3" gate="G$1" x="68.58" y="-88.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="67.945" y="-87.884" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -8757,12 +8755,12 @@ Source: www.kingbright.com</description>
 <instance part="GND3" gate="1" x="43.18" y="-109.22" smashed="yes">
 <attribute name="VALUE" x="40.64" y="-111.76" size="1.778" layer="96"/>
 </instance>
-<instance part="RESET" gate="1" x="33.02" y="76.2" smashed="yes" rot="R270">
-<attribute name="NAME" x="30.48" y="82.55" size="1.778" layer="95"/>
-<attribute name="VALUE" x="36.195" y="80.01" size="1.778" layer="96"/>
+<instance part="RESET" gate="1" x="15.24" y="71.12" smashed="yes" rot="R90">
+<attribute name="NAME" x="17.78" y="64.77" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="12.065" y="67.31" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+6" gate="1" x="2.54" y="76.2" smashed="yes" rot="R90">
-<attribute name="VALUE" x="7.62" y="73.66" size="1.778" layer="96" rot="R180"/>
+<instance part="P+6" gate="1" x="22.86" y="91.44" smashed="yes">
+<attribute name="VALUE" x="20.32" y="86.36" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="STEPPER2" gate="A" x="236.22" y="-2.54" smashed="yes">
 <attribute name="NAME" x="229.87" y="-9.525" size="1.778" layer="95"/>
@@ -8847,10 +8845,6 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="151.13" y="70.0786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="156.21" y="65.278" size="1.778" layer="96"/>
 </instance>
-<instance part="RESET/RX/TX" gate="A" x="78.74" y="81.28" smashed="yes" rot="R90">
-<attribute name="NAME" x="85.09" y="85.725" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="86.36" y="74.93" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="H1" gate="G$1" x="248.92" y="-45.72" smashed="yes" rot="R180">
 <attribute name="NAME" x="246.126" y="-46.3042" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="246.126" y="-43.2562" size="1.778" layer="96" rot="R180"/>
@@ -8859,27 +8853,28 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="246.126" y="-53.9242" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="246.126" y="-50.8762" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="FRAME2" gate="G$1" x="-7.62" y="-124.46" smashed="yes"/>
-<instance part="FRAME2" gate="G$2" x="165.1" y="-124.46" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="177.8" y="-123.19" size="2.54" layer="94"/>
-<attribute name="SHEET" x="251.46" y="-123.19" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="182.88" y="-105.41" size="2.54" layer="94"/>
+<instance part="FRAME2" gate="G$1" x="-15.24" y="-116.84" smashed="yes"/>
+<instance part="FRAME2" gate="G$2" x="157.48" y="-116.84" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="170.18" y="-115.57" size="2.54" layer="94"/>
+<attribute name="SHEET" x="243.84" y="-115.57" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="175.26" y="-97.79" size="2.54" layer="94"/>
+</instance>
+<instance part="RESET/RX/TX" gate="A" x="78.74" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="70.485" y="74.93" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="86.36" y="74.93" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND4" gate="1" x="0" y="53.34" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-2.54" y="55.88" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="C5" gate="G$1" x="0" y="76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="-0.635" y="77.216" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="4.191" y="77.216" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
-<segment>
-<pinref part="C1" gate="G$1" pin="1"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="20.32" y1="60.96" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="60.96" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="45.72" x2="15.24" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="45.72" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
-<junction x="15.24" y="53.34"/>
-</segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="71.12" y1="-96.52" x2="73.66" y2="-96.52" width="0.1524" layer="91"/>
@@ -8962,6 +8957,22 @@ Source: www.kingbright.com</description>
 <wire x1="22.86" y1="-93.98" x2="43.18" y2="-93.98" width="0.1524" layer="91"/>
 <junction x="43.18" y="-93.98"/>
 </segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="60.96" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="45.72" x2="15.24" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="45.72" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="GND4" gate="1" pin="GND"/>
+<wire x1="15.24" y1="53.34" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="53.34" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
+<junction x="15.24" y="53.34"/>
+<pinref part="RESET" gate="1" pin="S"/>
+<wire x1="5.08" y1="53.34" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="71.12" x2="5.08" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="71.12" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
+<junction x="5.08" y="53.34"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -9043,9 +9054,8 @@ Source: www.kingbright.com</description>
 <junction x="33.02" y="-76.2"/>
 </segment>
 <segment>
+<pinref part="R1-RESET" gate="G$1" pin="2"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
-<pinref part="R1-RESET" gate="G$1" pin="1"/>
-<wire x1="5.08" y1="76.2" x2="12.7" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+24V" class="0">
@@ -9089,22 +9099,22 @@ Source: www.kingbright.com</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="RESET" gate="1" pin="S"/>
-<wire x1="38.1" y1="76.2" x2="53.34" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="76.2" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="IC" pin="PC6(!RESET!)"/>
 <wire x1="53.34" y1="60.96" x2="55.88" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="76.2" x2="76.2" y2="76.2" width="0.1524" layer="91"/>
-<junction x="53.34" y="76.2"/>
-<pinref part="RESET/RX/TX" gate="A" pin="1"/>
 <wire x1="76.2" y1="76.2" x2="76.2" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="R1-RESET" gate="G$1" pin="2"/>
+<pinref part="RESET/RX/TX" gate="A" pin="2"/>
+<pinref part="R1-RESET" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="76.2" x2="22.86" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="76.2" x2="22.86" y2="78.74" width="0.1524" layer="91"/>
+<junction x="53.34" y="76.2"/>
+<wire x1="22.86" y1="76.2" x2="22.86" y2="71.12" width="0.1524" layer="91"/>
+<junction x="22.86" y="76.2"/>
 <pinref part="RESET" gate="1" pin="P"/>
-<wire x1="22.86" y1="76.2" x2="27.94" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="71.12" x2="20.32" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="-"/>
+<wire x1="5.08" y1="76.2" x2="22.86" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -9406,11 +9416,11 @@ Source: www.kingbright.com</description>
 <wire x1="106.68" y1="20.32" x2="109.22" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="20.32" x2="129.54" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="20.32" x2="129.54" y2="-109.22" width="0.1524" layer="91"/>
-<pinref part="RESET/RX/TX" gate="A" pin="2"/>
 <wire x1="78.74" y1="78.74" x2="78.74" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="66.04" x2="109.22" y2="20.32" width="0.1524" layer="91"/>
 <junction x="109.22" y="20.32"/>
+<pinref part="RESET/RX/TX" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="N$39" class="0">
@@ -9419,11 +9429,11 @@ Source: www.kingbright.com</description>
 <pinref part="ADDITIONAL_IO" gate="A" pin="2"/>
 <wire x1="106.68" y1="17.78" x2="132.08" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="17.78" x2="132.08" y2="-109.22" width="0.1524" layer="91"/>
-<pinref part="RESET/RX/TX" gate="A" pin="3"/>
 <wire x1="81.28" y1="78.74" x2="81.28" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="71.12" x2="132.08" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="71.12" x2="132.08" y2="17.78" width="0.1524" layer="91"/>
 <junction x="132.08" y="17.78"/>
+<pinref part="RESET/RX/TX" gate="A" pin="4"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -9459,6 +9469,17 @@ Source: www.kingbright.com</description>
 <wire x1="114.3" y1="78.74" x2="114.3" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R2-SENSOR" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="68.58" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="RESET/RX/TX" gate="A" pin="1"/>
+<wire x1="73.66" y1="78.74" x2="73.66" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="+"/>
+<wire x1="-2.54" y1="76.2" x2="-7.62" y2="76.2" width="0.1524" layer="91"/>
+<label x="-10.16" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

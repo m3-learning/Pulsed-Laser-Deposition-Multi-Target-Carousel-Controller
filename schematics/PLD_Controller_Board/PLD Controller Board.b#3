@@ -157,7 +157,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYTUzNGFl" projecturn="a.cGVyc29uYWw6dWUyYTUzNGFlIzIwMjEwNDE4NDA0MDk1ODU2" f3durn="urn:adsk.wipprod:dm.lineage:q2y9GLCVRIOJjf-EX8Q6Fw" pcbguid="" lastpulledtime="2021-04-18T05:32:09Z" lastsyncedchangeguid="" latestrevisionid="5ae4725e-e7a3-4a28-acaf-a7a7bdc692f4" lastsyncedrevisionid="5ae4725e-e7a3-4a28-acaf-a7a7bdc692f4" lastboardhashguid="568d2ffe-2608-7111-6662-5e8335241eda" lastpushedtime="2021-04-20T06:10:01Z" linktopcb3d="true"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYTUzNGFl" projecturn="a.cGVyc29uYWw6dWUyYTUzNGFlIzIwMjEwNDE4NDA0MDk1ODU2" f3durn="urn:adsk.wipprod:dm.lineage:q2y9GLCVRIOJjf-EX8Q6Fw" pcbguid="" lastpulledtime="2021-04-18T05:32:09Z" lastsyncedchangeguid="" latestrevisionid="297fc656-b017-4737-be0b-cb1644cb30e1" lastsyncedrevisionid="297fc656-b017-4737-be0b-cb1644cb30e1" lastboardhashguid="5c01027d-b183-5112-6f0c-4f43d7a1450f" lastpushedtime="2021-04-20T19:13:17Z" linktopcb3d="true"/>
 <plain>
 <wire x1="0" y1="0" x2="55.245" y2="0" width="0" layer="20"/>
 <wire x1="55.245" y1="0" x2="55.245" y2="71.12" width="0" layer="20"/>
@@ -2988,8 +2988,8 @@
 <rectangle x1="28.8163" y1="14.6685" x2="45.8597" y2="14.6939" layer="25"/>
 <text x="0" y="-0.127" size="0.0508" layer="25" font="vector">C:/Users/capta/Desktop/m3_newbord.bmp</text>
 <text x="14.8" y="69.6" size="0.75" layer="26" rot="MR0">Designed By: Ryan Forelli '24</text>
-<text x="48.7" y="2.2" size="0.7" layer="26" rot="MR0">Property of the M3 Learning group</text>
-<text x="48.7" y="1.2" size="0.7" layer="26" rot="MR0">Principal Investigator: Professor Joshua C. Agar</text>
+<text x="48.4" y="2.9" size="0.7" layer="26" rot="MR0">Created by the M3 Learning group.</text>
+<text x="48.4" y="1.9" size="0.7" layer="26" rot="MR0">Principal Investigator: Professor Joshua C. Agar.</text>
 <text x="29.7" y="35.6" size="0.9" layer="25">EN</text>
 <text x="27.3" y="61.9" size="0.9" layer="25">EN</text>
 <text x="19" y="1.6" size="1.778" layer="25">STEP1</text>
@@ -2998,11 +2998,7 @@
 <wire x1="1" y1="70.1" x2="1" y2="1" width="0.1524" layer="25"/>
 <wire x1="1" y1="1" x2="54.2" y2="1" width="0.1524" layer="25"/>
 <wire x1="54.2" y1="1" x2="54.2" y2="67" width="0.1524" layer="25"/>
-<wire x1="1" y1="69.2" x2="1" y2="1" width="0.1524" layer="26"/>
-<wire x1="1" y1="1" x2="27.5" y2="1" width="0.1524" layer="26"/>
-<wire x1="49" y1="1" x2="54.2" y2="1" width="0.1524" layer="26"/>
-<wire x1="54.2" y1="1" x2="54.2" y2="65.6" width="0.1524" layer="26"/>
-<wire x1="15.9" y1="70.1" x2="49.6" y2="70.1" width="0.1524" layer="26"/>
+<text x="48.4" y="0.9" size="0.7" layer="26" rot="MR0">Released under BSD-3 License.</text>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">

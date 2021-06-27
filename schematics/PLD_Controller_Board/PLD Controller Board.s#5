@@ -8648,7 +8648,7 @@ Source: www.kingbright.com</description>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
-<part name="VDD/VMOT_SUPPLY" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="VDD/VMOT" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="10UF-POLAR" device="-RADIAL-2.5MM-25V-20%" override_package3d_urn="urn:adsk.eagle:package:28116215/2" override_package_urn="urn:adsk.eagle:footprint:28116216/1" value="100uF"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -8666,7 +8666,7 @@ Source: www.kingbright.com</description>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
-<part name="IR_SENSOR" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="IR_SEN" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="ADDITIONAL_IO" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X9" device="" package3d_urn="urn:adsk.eagle:package:22483/2"/>
 <part name="LED5" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="GND" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2"/>
@@ -8734,7 +8734,7 @@ Source: www.kingbright.com</description>
 <instance part="P+1" gate="1" x="86.36" y="-101.6" smashed="yes" rot="R270">
 <attribute name="VALUE" x="83.82" y="-106.68" size="1.778" layer="96"/>
 </instance>
-<instance part="VDD/VMOT_SUPPLY" gate="A" x="71.12" y="-111.76" smashed="yes" rot="R270">
+<instance part="VDD/VMOT" gate="A" x="71.12" y="-111.76" smashed="yes" rot="R270">
 <attribute name="NAME" x="64.77" y="-116.205" size="1.778" layer="95"/>
 <attribute name="VALUE" x="63.5" y="-105.41" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -8800,7 +8800,7 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="74.168" y="-41.656" size="1.778" layer="95"/>
 <attribute name="VALUE" x="74.168" y="-43.815" size="1.778" layer="96"/>
 </instance>
-<instance part="IR_SENSOR" gate="A" x="111.76" y="81.28" smashed="yes" rot="R90">
+<instance part="IR_SEN" gate="A" x="111.76" y="81.28" smashed="yes" rot="R90">
 <attribute name="NAME" x="118.11" y="85.725" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="119.38" y="74.93" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -8887,7 +8887,7 @@ Source: www.kingbright.com</description>
 <wire x1="73.66" y1="-96.52" x2="76.2" y2="-96.52" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-88.9" x2="73.66" y2="-96.52" width="0.1524" layer="91"/>
 <junction x="73.66" y="-96.52"/>
-<pinref part="VDD/VMOT_SUPPLY" gate="A" pin="2"/>
+<pinref part="VDD/VMOT" gate="A" pin="2"/>
 <wire x1="71.12" y1="-96.52" x2="71.12" y2="-109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -8903,7 +8903,7 @@ Source: www.kingbright.com</description>
 <wire x1="254" y1="27.94" x2="254" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="254" y1="-20.32" x2="205.74" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="254" y="27.94"/>
-<pinref part="IR_SENSOR" gate="A" pin="1"/>
+<pinref part="IR_SEN" gate="A" pin="1"/>
 <wire x1="109.22" y1="78.74" x2="109.22" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="73.66" x2="254" y2="73.66" width="0.1524" layer="91"/>
 <junction x="254" y="73.66"/>
@@ -8995,7 +8995,7 @@ Source: www.kingbright.com</description>
 <wire x1="66.04" y1="-96.52" x2="63.5" y2="-96.52" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="-88.9" x2="66.04" y2="-96.52" width="0.1524" layer="91"/>
 <junction x="66.04" y="-96.52"/>
-<pinref part="VDD/VMOT_SUPPLY" gate="A" pin="3"/>
+<pinref part="VDD/VMOT" gate="A" pin="3"/>
 <wire x1="68.58" y1="-96.52" x2="68.58" y2="-109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -9051,7 +9051,7 @@ Source: www.kingbright.com</description>
 <net name="+24V" class="0">
 <segment>
 <pinref part="P+1" gate="1" pin="+24V"/>
-<pinref part="VDD/VMOT_SUPPLY" gate="A" pin="1"/>
+<pinref part="VDD/VMOT" gate="A" pin="1"/>
 <wire x1="83.82" y1="-101.6" x2="73.66" y2="-101.6" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-101.6" x2="73.66" y2="-109.22" width="0.1524" layer="91"/>
 </segment>
@@ -9326,7 +9326,7 @@ Source: www.kingbright.com</description>
 <net name="N$31" class="0">
 <segment>
 <pinref part="IC2" gate="IC" pin="(XCK/T0)PD4"/>
-<pinref part="IR_SENSOR" gate="A" pin="2"/>
+<pinref part="IR_SEN" gate="A" pin="2"/>
 <wire x1="106.68" y1="10.16" x2="111.76" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="10.16" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
 </segment>
@@ -9455,7 +9455,7 @@ Source: www.kingbright.com</description>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="IR_SENSOR" gate="A" pin="3"/>
+<pinref part="IR_SEN" gate="A" pin="3"/>
 <wire x1="114.3" y1="78.74" x2="114.3" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R1-SENSOR" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="68.58" x2="152.4" y2="68.58" width="0.1524" layer="91"/>

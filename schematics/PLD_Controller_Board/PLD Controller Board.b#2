@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -157,7 +157,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYTUzNGFl" projecturn="a.cGVyc29uYWw6dWUyYTUzNGFlIzIwMjEwNDE4NDA0MDk1ODU2" f3durn="urn:adsk.wipprod:dm.lineage:q2y9GLCVRIOJjf-EX8Q6Fw" pcbguid="" lastpulledtime="2021-04-18T05:32:09Z" lastsyncedchangeguid="" latestrevisionid="3e317c07-300e-4a5f-b06d-ffd6075839cc" lastsyncedrevisionid="3e317c07-300e-4a5f-b06d-ffd6075839cc" lastboardhashguid="f8206550-c88f-13f8-b7c5-f96c69ca2412" lastpushedtime="2021-04-20T06:15:08Z" linktopcb3d="true"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYTUzNGFl" projecturn="a.cGVyc29uYWw6dWUyYTUzNGFlIzIwMjEwNDE4NDA0MDk1ODU2" f3durn="urn:adsk.wipprod:dm.lineage:q2y9GLCVRIOJjf-EX8Q6Fw" pcbguid="" lastpulledtime="2021-04-18T05:32:09Z" lastsyncedchangeguid="" latestrevisionid="297fc656-b017-4737-be0b-cb1644cb30e1" lastsyncedrevisionid="297fc656-b017-4737-be0b-cb1644cb30e1" lastboardhashguid="5c01027d-b183-5112-6f0c-4f43d7a1450f" lastpushedtime="2021-04-20T19:13:17Z" linktopcb3d="%12"/>
 <plain>
 <wire x1="0" y1="0" x2="55.245" y2="0" width="0" layer="20"/>
 <wire x1="55.245" y1="0" x2="55.245" y2="71.12" width="0" layer="20"/>
@@ -2988,8 +2988,8 @@
 <rectangle x1="28.8163" y1="14.6685" x2="45.8597" y2="14.6939" layer="25"/>
 <text x="0" y="-0.127" size="0.0508" layer="25" font="vector">C:/Users/capta/Desktop/m3_newbord.bmp</text>
 <text x="14.8" y="69.6" size="0.75" layer="26" rot="MR0">Designed By: Ryan Forelli '24</text>
-<text x="48.7" y="2.2" size="0.7" layer="26" rot="MR0">Property of the M3 Learning group</text>
-<text x="48.7" y="1.2" size="0.7" layer="26" rot="MR0">Principal Investigator: Professor Joshua C. Agar</text>
+<text x="48.4" y="2.9" size="0.7" layer="26" rot="MR0">Created by the M3 Learning group.</text>
+<text x="48.4" y="1.9" size="0.7" layer="26" rot="MR0">Principal Investigator: Professor Joshua C. Agar.</text>
 <text x="29.7" y="35.6" size="0.9" layer="25">EN</text>
 <text x="27.3" y="61.9" size="0.9" layer="25">EN</text>
 <text x="19" y="1.6" size="1.778" layer="25">STEP1</text>
@@ -2998,6 +2998,7 @@
 <wire x1="1" y1="70.1" x2="1" y2="1" width="0.1524" layer="25"/>
 <wire x1="1" y1="1" x2="54.2" y2="1" width="0.1524" layer="25"/>
 <wire x1="54.2" y1="1" x2="54.2" y2="67" width="0.1524" layer="25"/>
+<text x="48.4" y="0.9" size="0.7" layer="26" rot="MR0">Released under BSD-3 License.</text>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
@@ -4926,12 +4927,12 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="30.48" y="61.595" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="GND" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="50.8" y="7.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="54.0274" y="5.6064" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="54.0274" y="19.4064" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="POPULARITY" value="69" x="116.84" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="53.975" y="1.27" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="+5V" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="50.8" y="21.59" smashed="yes" rot="R90">
-<attribute name="NAME" x="53.9988" y="19.389" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="53.9988" y="5.689" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="POPULARITY" value="69" x="116.84" y="74.93" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="53.975" y="15.24" size="1.27" layer="27" rot="R90"/>
 </element>
