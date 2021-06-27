@@ -3,6 +3,7 @@
 Open source multi-target carousel controller for Neccera PLD System
 
 Created by: The M3 Learning Group
+
 All designs and code by: Ryan Forelli
 
 
@@ -16,9 +17,9 @@ All designs and code by: Ryan Forelli
 -   1x ATmega328P AVR microcontroller
 -   5x 5mm DIP LEDs
 -   1x Pin header set
--   [Molex 6 Circuit Wire Connector][1]
+-   1x [Molex 6 Circuit Wire Connector][1]
 -   1x through hole pushbutton
--   16 MHz crystal oscillator
+-   1x 16 MHz crystal oscillator
 -   2x 22pF ceramic capacitors
 -   1x 10uF electrolytic capacitor
 -   1x 100uF electrolytic capacitor
@@ -30,13 +31,13 @@ All designs and code by: Ryan Forelli
 -   1x [USB to TTL Adapter][2]
 
 ## Installation Notes
--   Supply PCB with 5V supply from USB to TTL Adapter.
--   Supply Stepper motor controller with 24V supply from Multi-Target Carousel Controller or other source.
--   Only four Molex connector pins are used. Use PCB schematic for reference when wiring connectors to PCB.
+-   Supply PCB with 5V supply from USB to TTL Adapter
+-   Supply Stepper motor controller with 24V from Multi-Target Carousel Controller or other source
+-   Only four Molex connector pins are used. Use PCB schematic for reference when wiring connectors to PCB
 
 ## Usage Instructions
 -   Power PLD Controller module
--   Open LabVIEW pldsyscontrol.exe and run Virtual Instrument (VI)
+-   Open LabVIEW pldsyscontrol.exe and run the Virtual Instrument (VI)
 -   Select COM port
 -   Home raster motor (does not home to a specific target)
 -   Select target and begin use
