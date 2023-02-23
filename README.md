@@ -24,7 +24,6 @@ All designs and code by: Ryan Forelli
 -   1x 10uF electrolytic capacitor
 -   1x 100uF electrolytic capacitor
 -   1x 10k through-hole resistor
--   1x 10k through-hole resistor
 -   1x Assorted single-core jumper wires
 -   1x [Standoffs][0] (optional)
 -   1x Custom back plate (optional)
